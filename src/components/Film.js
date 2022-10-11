@@ -4,7 +4,7 @@ const Film = ({url, children}) => {
     return (
         <>
         <div>
-            <a href={url} target="blank">{children}</a>
+            <a className="film-link" href={url} target="blank">{children}</a>
             </div>
         </>
     );
